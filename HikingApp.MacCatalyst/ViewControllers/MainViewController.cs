@@ -13,12 +13,12 @@ namespace HikingApp.MacCatalyst.ViewControllers
 
             var exploreNavigationController = new UINavigationController(exploreViewController)
             {
-                TabBarItem = new UITabBarItem("Explore", UIImage.FromBundle("explore_icon.png"), 0)
+                TabBarItem = new UITabBarItem("Explore", null, 0)
             };
 
             var myTrailsNavigationController = new UINavigationController(myTrailsViewController)
             {
-                TabBarItem = new UITabBarItem("My Trails", UIImage.FromBundle("mytrails_icon.png"), 1)
+                TabBarItem = new UITabBarItem("My Trails", null, 1)
             };
 
             ViewControllers = new UIViewController[]
